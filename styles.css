@@ -1,0 +1,43 @@
+.calculator {
+  border: 1px;
+  border-style: solid;
+  margin: 0;
+  border-collapse: collapse;
+  width: 40vw;
+  height: 40vw;
+  margin: 30vw;
+  text-align: center;
+  background-color: #61B34F;
+  font-size: 22pt;
+  color: white;
+  font-weight: 300;
+}
+.cell-block {
+  border: 1px;
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+#divide {
+  background-color: #82C276;
+  border-color: white;
+  color: black;
+}
+
+#multiply {
+  background-color: #82C276;
+  border-color: white;
+  color: black;
+}
+
+#subtract {
+  background-color: #82C276;
+  border-color: white;
+  color: black;
+}
+
+#addition {
+  background-color: #82C276;
+  border-color: white;
+  color: black;
+}
