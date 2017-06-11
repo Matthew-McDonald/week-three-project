@@ -41,3 +41,10 @@
   border-color: white;
   color: black;
 }
+
+input {
+  border: none;
+  background-color: #61B34F;
+  color: white;
+  padding: 50px;
+}

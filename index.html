@@ -8,35 +8,67 @@
   </head>
   <body>
 
+    <!-- <form name='calculator'>
+
+      <input name="result">
+      <br>
+      <input type="button" name="1" value="1" onclick="addOne()">
+      <input type="button" name="2" value="2">
+      <input type="button" name="3" value="3">
+
+
+    </form> -->
+
     <table class='calculator'>
+    <form name = 'calculator'>
+
       <tr>
-        <td class='cell-block' id="clear">C</td>
-        <td colspan="3" dir=""class='cell-block' id="display-block"></td>
+        <td class='cell-block' id="clear">
+          <input type="button" name="C" value="C" onclick="runClear()"></td>
+        <td colspan="3"><input name="result"></td>
       </tr>
       <tr>
-        <td class='cell-block' id="seven">7</td>
-        <td class='cell-block' id="eight">8</td>
-        <td class='cell-block' id="nine">9</td>
-        <td class='cell-block' id="divide">/</td>
+        <td class='cell-block' id="seven">
+          <input type="button" name="7" value="7" onclick="runSeven()"></td>
+        <td class='cell-block' id="eight">
+          <input type="button" name="8" value="8" onclick="runEight()"></td>
+        <td class='cell-block' id="nine">
+          <input type="button" name="9" value="9" onclick="runNine()"></td>
+        <td class='cell-block' id="divide">
+          <input id="divide" type="button" name="/" value="/" onclick="runDivide()"></td>
       </tr>
       <tr>
-        <td class='cell-block' id="four">4</td>
-        <td class='cell-block' id="five">5</td>
-        <td class='cell-block' id="six">6</td>
-        <td class='cell-block' id="multiply">X</td>
+        <td class='cell-block' id="four">
+          <input type="button" name="4" value="4" onclick="runFour()"></td>
+        <td class='cell-block' id="five">
+          <input type="button" name="5" value="5" onclick="runFive()"></td>
+        <td class='cell-block' id="six">
+          <input type="button" name="6" value="6" onclick="runSix()"></td>
+        <td class='cell-block' id="multiply">
+          <input id="multiply" type="button" name="X" value="*" onclick="runMultiply()"></td>
       </tr>
       <tr>
-        <td class='cell-block' id="one">1</td>
-        <td class='cell-block' id="two">2</td>
-        <td class='cell-block' id="three">3</td>
-        <td class='cell-block' id="subtract">-</td>
+        <td class='cell-block' id="one">
+          <input type="button" name="1" value="1" onclick="runOne()"></td>
+        <td class='cell-block' id="two">
+          <input type="button" name="2" value="2" onclick="runTwo()"></td>
+        <td class='cell-block' id="three">
+          <input type="button" name="3" value="3" onclick="runThree()"></td>
+        <td class='cell-block' id="subtract">
+          <input id="subtract" type="button" name="-" value="-" onclick="runSubtract()"></td>
       </tr>
       <tr>
-        <td class='cell-block' id="zero">0</td>
-        <td class='cell-block' id="decimal">.</td>
-        <td class='cell-block' id="equals">=</td>
-        <td class='cell-block' id="addition">+</td>
+        <td class='cell-block' id="zero">
+          <input type="button" name="0" value="0" onclick="runZero()"></td>
+        <td class='cell-block' id="decimal">
+          <input type="button" name="." value="." onclick="runDecimal()"></td>
+        <td class='cell-block' id="equals">
+          <input type="button" name="=" value="=" onclick="runEvaluate()"></td>
+        <td class='cell-block' id='addition'>
+          <input id="addition" type="button" name="+" value="+" onclick="runAddition()"></td>
       </tr>
+
+      </form>
     </table>
 
 
