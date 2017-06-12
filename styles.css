@@ -42,9 +42,36 @@
   color: black;
 }
 
+#addition:hover {
+ color: white;
+}
+
+#subtract:hover {
+ color: white;
+}
+#multiply:hover {
+ color: white;
+}
+#divide:hover {
+ color: white;
+}
+
+#clear:hover {
+  background-color: #82C276;
+}
+#equals:hover {
+  background-color: #82C276;
+}
+
 input {
   border: none;
   background-color: #61B34F;
   color: white;
   padding: 50px;
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+input[type="button"] {
+  outline: none;
 }

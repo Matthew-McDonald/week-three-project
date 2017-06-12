@@ -61,3 +61,22 @@ function runEvaluate() {
   document.calculator.result.value = evaluate;
 
 }
+
+var equals = document.getElementById("equals");
+
+equals.addEventListener('keypress', function checkEnter(e) {
+  if (e.keycode == 13) {
+    evaluate = eval(document.calculator.result.value);
+
+    document.calculator.result.value = evaluate;
+
+  }
+})
+
+var one = document.getElementById('one');
+
+one.addEventListener('keypress', function checkOne(e) {
+  if (e.keycode == 49) {
+    runOne();
+  }
+})
