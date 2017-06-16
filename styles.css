@@ -70,8 +70,5 @@ input {
   padding: 50px;
   font-size: 16pt;
   font-weight: 300;
-}
-
-input[type="button"] {
   outline: none;
 }
